@@ -1,6 +1,7 @@
 let intro = document.querySelector('.intro');
 let letter = document.querySelector('.welcome-header');
 let letterSpan = document.querySelectorAll('.letter');
+let splashLogo = document.getElementById('pic')
 
 window.addEventListener('DOMContentLoaded', ()=>{
 
