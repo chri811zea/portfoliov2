@@ -27,9 +27,9 @@ header h4 {
 
 h5 {
     position: relative;
-    left: 8%;
-    top: 35%;
-    color: white;
+    justify-content: center;
+    text-align: center;
+    color: black;
 }
 
 /* Company name splash, made with help from https://www.youtube.com/watch?v=2ak37WrbSDg */
