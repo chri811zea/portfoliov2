@@ -20,15 +20,15 @@ window.addEventListener('DOMContentLoaded', ()=>{
                     span.classList.add('fade');
                 },(idx + 1) * 50)
             })
-        },2000)
+        },4000)
 
         setTimeout(()=>{
             splashLogo.classList.add('active');
-        }, 2500)
+        }, 4000)
 
         setTimeout(()=>{
             intro.style.top = '-100vh';
             
-        },3500)
+        },4800)
     })
 })

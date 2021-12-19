@@ -9,6 +9,26 @@ body {
   background-color: white;
 }
 
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Columns for the content, to better scale between desktop and mobile */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.content {
+  padding: 20px;
+}
+
 header {
   position: relative;
   left: 0;
@@ -20,8 +40,13 @@ header {
 header h4 {
   position: relative;
   margin-right: 50%;
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: #ffffff;
+}
+
+h4 {
+  position: absolute;
+  margin-right: 100%
 }
 
 h5 {
@@ -61,7 +86,7 @@ h5 {
   display: inline-block;
   bottom: -20px;
   opacity: 0;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .letter.active {
@@ -107,9 +132,16 @@ h5 {
   margin-right: auto;
 }
 
-/* Media queries for different screen sizes */
+/* Media queries for different screen sizes.
+Certain elements will no longer be shown, columns will be resized */
 
 @media screen and (max-width: 768px) {
+  header h4 {
+    font-size: 0;
+  }
+  .column {
+    width: 100%
+  }
   .letter {
     font-size: 1.4rem;
   }
@@ -118,7 +150,14 @@ h5 {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 990px) {
+  header h4 {
+    font-size: 0;
+  }
+  .column {
+    width: 100%
+  }
+
   .letter {
     font-size: 2rem;
   }
