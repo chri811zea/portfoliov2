@@ -3,7 +3,7 @@ let letter = document.querySelector('.welcome-header');
 let letterSpan = document.querySelectorAll('.letter');
 let splashLogo = document.getElementById('pic')
 
-window.addEventListener('DOMContentLoaded', ()=>{
+window.addEventListener('load', ()=>{
 
     setTimeout(()=>{
 
@@ -28,7 +28,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
         setTimeout(()=>{
             intro.style.top = '-100vh';
-            
+
         },4800)
     })
 })
