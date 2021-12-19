@@ -28,6 +28,10 @@ body {
 .content {
   padding: 20px;
 }
+.content2 {
+  text-align: center;
+  padding: 20px;
+}
 
 header {
   position: relative;
@@ -57,7 +61,10 @@ h5 {
     margin-left: 1%;
     color: black;
     font-size: 1rem;
+}
 
+h6 {
+  font-size: 2rem
 }
 
 /* Company name splash, made with help from https://www.youtube.com/watch?v=2ak37WrbSDg */
@@ -150,8 +157,11 @@ Certain elements will no longer be shown, columns will be resized */
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1040px) {
   header h4 {
+    font-size: 0;
+  }
+  h4 { 
     font-size: 0;
   }
   .column {
