@@ -18,19 +18,21 @@ header {
 }
 
 header h4 {
-  position: absolute;
-  left: 8%;
-  bottom: 0rem;
+  position: relative;
+  margin-right: 50%;
   font-size: 1.6rem;
   color: #ffffff;
 }
 
 h5 {
     position: relative;
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 1%;
     color: black;
-    font-size: 2rem;
+    font-size: 1rem;
+
 }
 
 /* Company name splash, made with help from https://www.youtube.com/watch?v=2ak37WrbSDg */
@@ -101,7 +103,7 @@ h5 {
 #pic {
   height: 120%;
   display: block;
-  margin-left: auto;
+  margin-left: 5%;
   margin-right: auto;
 }
 
